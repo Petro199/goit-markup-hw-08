@@ -1,4 +1,15 @@
+.networks {
+    @media screen and (max-width: 767px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+}
+
 .networks__title {
+    text-align: center;
     color: var(--white-color);
     margin-bottom: 20px;
     font-weight: 700;
@@ -8,7 +19,7 @@
 
 .social-list {
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
     gap: 10px;
 }
@@ -31,8 +42,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,&:focus {
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
     }
 }
 

@@ -2,8 +2,18 @@
 
 .site-contact {
     display: flex;
-    margin-left: auto;
+    // margin-left: auto;
     align-content: center;
+   
+    @media screen and (min-width:768px) and(max-width:1199px){
+    flex-direction: column;  
+    gap: 10px; 
+    align-items: flex-start;
+    } 
+         @media (max-width:768px) {
+             display: none;
+         }
+  
 }
 
 .site-contact__link {
@@ -25,18 +35,24 @@
     &:focus,&:hover{
     color: var(--accent-color);
     }
+       
 }
 
-// .link:hover,
-// .link:focus {
-//     color: var(--accent-color);
-// }
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
 
 .site-contact__icon {
     margin-right: 10px;
     fill: currentColor;
+    @media screen and (min-width:768px) and(max-width:1199px) {
+        gap: 12px;}
 
 }
 .site-contact__item:not(:first-child) {
+    @media (min-width:1200px) {
     margin-left: 50px;
+    }
+    
 }

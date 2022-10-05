@@ -5,7 +5,22 @@
     flex-wrap: wrap;
     padding-left: 0;
     gap: 30px;
+
+
+    @media screen and (max-width:768px) {
+        justify-content: center;
+    }
 }
+
+
+.card-item {
+    @media screen and (min-width:768px) {
+        flex-basis: calc((100% - 30px) / 2);
+        max-width: 354px;
+
+    }
+}
+
 
 .card-link {
     position: relative;
@@ -13,27 +28,21 @@
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,&:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-    &:focus .card-text,&:hover .card-text {
+
+    &:focus .card-text,
+    &:hover .card-text {
         transform: translateY(0);
-            opacity: 1;
+        opacity: 1;
     }
 }
 
-// .card-link:hover,
-// .card-link:focus {
-//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-//         1px 4px 6px rgba(0, 0, 0, 0.16);
-// }
 
-// .card-link:hover .card-text,
-// .card-link:focus .card-text {
-//     transform: translateY(0);
-//     opacity: 1;
-// }
 
 .card-img {
     display: block;
