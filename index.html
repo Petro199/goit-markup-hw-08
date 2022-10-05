@@ -340,76 +340,82 @@
     </main>
     <footer class="page-footer">
       <div class="container footer-container">
-        <div class="footer-adress">
-          <a href="" class="logo footer-logo">
-            Web
-            <span class="logo__white" lang="en">Studio</span>
-          </a>
-          <address class="adress">
-            <ul class="adress__list">
-              <li class="adress__item">
-                <a href="" class="adress__link adress__link--color"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
+        <div class="footer-wrap">
+          <div class="footer-adress">
+            <a href="" class="logo footer-logo">
+              Web
+              <span class="logo__white" lang="en">Studio</span>
+            </a>
+            <address class="adress">
+              <ul class="adress__list">
+                <li class="adress__item">
+                  <a href="" class="adress__link adress__link--color"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="adress__item">
+                  <a href="mailto:info@devstudio.com" class="adress__link">info@devstudio.com</a>
+                </li>
+                <li class="adress__item">
+                  <a href="tel:+380961111111" class="adress__link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="networks">
+            <p class="networks__title">ПРИЄДНУЙТЕСЬ</p>
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--color" href="">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="adress__item">
-                <a href="mailto:info@devstudio.com" class="adress__link">info@devstudio.com</a>
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--color" href="">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="adress__item">
-                <a href="tel:+380961111111" class="adress__link">+38 096 111 11 11</a>
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--color" href="">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--color" href="">
+                  <svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
-        <div class="networks">
-          <p class="networks__title">ПРИЄДНУЙТЕСЬ</p>
-          <ul class="social-list">
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--color" href="">
-                <svg width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--color" href="">
-                <svg width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--color" href="">
-                <svg width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--color" href="">
-                <svg width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <form class="footer-form">
+        <div class="join-us">
           <p class="footer-form__title">Підпишіться на розсилку</p>
-          <label class="footer-form__label" for="user-email">
-            <input
-              class="footer-form__input"
-              type="email"
-              name="email"
-              id="user-email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="footer-form__button" type="submit">
-            Підписатися
-            <svg class="footer-form__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-paper-plane"></use>
-            </svg>
-          </button>
-        </form>
+          <form class="footer-form">
+            <label class="footer-form__label" for="user-email">
+              <input
+                class="footer-form__input"
+                type="email"
+                name="email"
+                id="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-form__button" type="submit">
+              Підписатися
+              <svg class="footer-form__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-paper-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
