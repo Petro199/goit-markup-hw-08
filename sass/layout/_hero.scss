@@ -1,9 +1,9 @@
 .hero {
-    height: 600px;
+    height: auto;
     outline: 1px solid black;
     margin-left: auto;
     margin-right: auto;
-    // max-width: 1600px;
+    width: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,44 +58,39 @@ url('../images/hero/hero-480.jpg');
 
 
 .hero__title {
-    color: var(--white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    margin-bottom: 30px;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    // color: var(--white-color);
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // margin-bottom: 30px;
+    // width: 696px;
+    // margin-left: auto;
+    // margin-right: auto;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
 }
 
 /* -----------Hero button ---------------*/
 
 .hero__button {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-    padding: 10px 32px;
-    border: none;
-    min-width: 216px;
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    &:hover,&:focus {
-    color: var(--accent-color);
-        background-color: var(--white-color);
-    }
+    // color: var(--white-color);
+    // background-color: var(--accent-color);
+    // font-family: inherit;
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.9;
+    // letter-spacing: 0.06em;
+    // border-radius: 4px;
+    // padding: 10px 32px;
+    // border: none;
+    // min-width: 216px;
+    // transition-property: color, background-color;
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // cursor: pointer;
+    // &:hover,&:focus {
+    // color: var(--accent-color);
+    //     background-color: var(--white-color);
+    // }
 }
 
-// .hero__button:hover,
-// .hero__button:focus {
-//     color: var(--accent-color);
-//     background-color: var(--white-color);
-// }
